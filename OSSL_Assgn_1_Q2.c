@@ -5,7 +5,7 @@ int main() {
     printf("enter size of array: ");
     scanf("%d",&n);
     
-    float avg;
+    float avg=0;
     int arr[n];
     for(int i=0;i<n;i++){
         printf("enter element %d :",i);
